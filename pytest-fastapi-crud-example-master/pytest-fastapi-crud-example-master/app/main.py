@@ -1,4 +1,4 @@
-from app import models, user
+from streamlit.app import models, user
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.database import engine
